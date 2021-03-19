@@ -14,17 +14,17 @@ Aplicação construída na trilha <strong>NodeJS</strong> da <strong>Next Level 
 - [Ambiente](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
 
 ### Resources
-[Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
+- [Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
 
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js]  (https://nodejs.org/en/)
-- [TypeScript]  (https://www.typescriptlang.org/)
-- [Express]  (https://expressjs.com/pt-br/)
-- [Jest]  (https://jestjs.io/)
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Jest](https://jestjs.io/)
 
 
 ## 🚀 Módulos
@@ -62,14 +62,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Run API
 
-### Go to server folder
+```bash
+# Go to server folder
 $ cd nlw4__api
-
-### Install Dependencies
+# Install Dependencies
 $ yarn install
-
-### Run Aplication
+# Run Aplication
 $ yarn start
+```
 
 Access API at http://localhost:3333/
 
