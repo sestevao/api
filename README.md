@@ -19,19 +19,19 @@ E, por isso, o NPS tem se tornado uma métrica tão importante na busca pelo suc
 
 # 🔗 Links do projeto
 
-## 📒 Notion
+### 📒 Notion
 - [Ambiente](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
 
 - [Guia NLW4 node.js](https://www.notion.so/Next-Level-Week-4-Node-js-NPS-Calculator-67981103adbb4f229187c802bcd0d787)
 
 <br>
 
-## 🔖 Recursos
+### 🔖 Recursos
 - [Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
 
 <br>
 
-## ⚙️ Funcionalidades
+### ⚙️ Funcionalidades
 - Registo de utilizadores
 - Registo de pesquisas de satisfação
 - Envio de pesquisas por email
@@ -39,7 +39,7 @@ E, por isso, o NPS tem se tornado uma métrica tão importante na busca pelo suc
 
 <br>
 
-## 👩‍💻 Tecnologias
+### 👩‍💻 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
@@ -52,7 +52,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-## 🚀 Módulos
+### 🚀 Módulos
 
 - `typeorm` - ORM baseado em entidades
 - `express` - Framework para servidor
@@ -69,7 +69,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-## 🛠️ Comandos para execução do projeto
+### 🛠️ Comandos para execução do projeto
 
 ```bash
 $ yarn init
@@ -108,13 +108,13 @@ $ yarn dev
 
 <br>
 
-## 💡 Observação
+### 💡 Observação
 
 O `node.js` por padrão não entende o formato `.ts` que é o nosso `typescript` sendo necessário utilizarmos um transpilador chamado `typescript`, para rodar algum "script" deve chamar `ts-node-dev src/server.ts` e não `node src/server.ts`.
 
 <br>
 
-## 🚀 Testes Automatizados
+### 🚀 Testes Automatizados
 
 **1. Testes unitários**
 - começar o teste para depois começar a aplicação
@@ -144,7 +144,7 @@ $ yarn test
 
 <br>
 
-## 🗺️ Rotas
+### 🗺️ Rotas
 
 |route|HTTP method|params|description|
 |:---|:---:|:---:|:---:
@@ -158,7 +158,7 @@ $ yarn test
 
 <br>
 
-## Correr o projeto
+### Correr o projeto
 
 ```bash
 # Clone this repository
@@ -175,7 +175,7 @@ Access `API` at http://localhost:3333/
 
 <br>
 
-## ✏️ Códigos
+### ✏️ Códigos
 
 **Dia 1** - Fundamentos do Node.js - `#rumoaoproximonivel`
 
