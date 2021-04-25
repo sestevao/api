@@ -1,7 +1,7 @@
 
 <h1 align="center">NLW#4 | Nodejs</h1>
 
-## 🔖 Sobre o Projeto
+### 🔖 Sobre o Projeto
 
 <strong>NPS-API</strong> para checar o NPS® ou Net Promoter Score de uma empresa 
 
@@ -9,7 +9,7 @@ Aplicação construída na trilha <strong>Node.js</strong> da <strong>Next Level
 
 <br>
 
-## 🧑‍🚀 O que é um NPS
+### 🧑‍🚀 O que é um NPS
 
 O NPS® ou Net Promoter Score é uma metodologia criada por Fred Reichheld em 2003. Com o NPS, é possível mensurar o nível de lealdade e de satisfação dos seus clientes.
 
