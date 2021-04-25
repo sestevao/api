@@ -19,14 +19,9 @@ E, por isso, o NPS tem se tornado uma métrica tão importante na busca pelo suc
 
 # 🔗 Links do projeto
 
-### 📒 Notion
+### 📒 Recursos
 - [Ambiente](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
-
 - [Guia NLW4 node.js](https://www.notion.so/Next-Level-Week-4-Node-js-NPS-Calculator-67981103adbb4f229187c802bcd0d787)
-
-<br>
-
-### 🔖 Recursos
 - [Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
 
 <br>
