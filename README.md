@@ -27,10 +27,10 @@ E, por isso, o NPS tem se tornado uma métrica tão importante na busca pelo suc
 <br>
 
 ### ⚙️ Funcionalidades
-- Registo de utilizadores
-- Registo de pesquisas de satisfação
-- Envio de pesquisas por email
-- Cálculo do NPS a partir das respostas
+- [x] Registo de utilizadores
+- [x] Registo de pesquisas de satisfação
+- [x] Envio de pesquisas por email
+- [x] Cálculo do NPS a partir das respostas
 
 <br>
 
