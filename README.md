@@ -104,6 +104,34 @@ $ yarn dev
 
 The `node.js` by default doesn't understand the `.ts` format that is our `typescript` so we need to use a transpilator called `typescript`, to run some script it must call `ts-node-dev src/server .ts` and not `node src/server.ts`.
 
+## ✅ Getting started
+
+```bash
+# Clone this repository
+$ gh clone https://github.com/sestevao/api.git
+
+# Access the repository on your terminal
+$ cd api
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Access `API` at http://localhost:3333/
+
+## 🗺️ Routes
+
+|route|HTTP method|params|description|
+|:---|:---:|:---:|:---:
+|`/users`|[POST](http://localhost:3333/users)|body with `name` and `email`|creates a new user
+|`/users`|[GET](http://localhost:3333/users)|-|show all users
+|`/surveys`|[POST](http://localhost:3333/surveys)|body with `title` and `description`|creates a search
+|`/surveys`|[GET](http://localhost:3333/surveys)|- |list the searches
+|`/sendMail`|[POST](http://localhost:3333/sendMail)|body with `user.email` and `survey.id`|creates a new survey
+|`/answers/:value`|[GET](http://localhost:3333/answers/10?u=e3fd0114-1682-4950-badc-ed1c6f5b23a7)| - |set `user` rating for a survey
+|`/nps/:survey_id`|[GET](http://localhost:3333/nps/e3fd0114-1682-4950-badc-ed1c6f5b23a7)|passes `survey_id` in url as parameter.|lists all responses (NPS) from this survey
 
 ## 🧪 Automated Tests
 
@@ -133,37 +161,6 @@ The `node.js` by default doesn't understand the `.ts` format that is our `typesc
   $ yarn test
   ```
 
-### 🗺️ Routes
-
-|route|HTTP method|params|description|
-|:---|:---:|:---:|:---:
-|`/users`|[POST](http://localhost:3333/users)|body with `name` and `email`|creates a new user
-|`/users`|[GET](http://localhost:3333/users)|-|show all users
-|`/surveys`|[POST](http://localhost:3333/surveys)|body with `title` and `description`|creates a search
-|`/surveys`|[GET](http://localhost:3333/surveys)|- |list the searches
-|`/sendMail`|[POST](http://localhost:3333/sendMail)|body with `user.email` and `survey.id`|creates a new survey
-|`/answers/:value`|[GET](http://localhost:3333/answers/10?u=e3fd0114-1682-4950-badc-ed1c6f5b23a7)| - |set `user` rating for a survey
-|`/nps/:survey_id`|[GET](http://localhost:3333/nps/e3fd0114-1682-4950-badc-ed1c6f5b23a7)|passes `survey_id` in url as parameter.|lists all responses (NPS) from this survey
-
-
-## ✅ Getting started
-
-```bash
-# Clone this repository
-$ gh clone https://github.com/sestevao/api.git
-
-# Access the repository on your terminal
-$ cd api
-
-# Install Dependencies
-$ yarn install
-
-# Run Aplication
-$ yarn start
-```
-
-Access `API` at http://localhost:3333/
-
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
@@ -171,4 +168,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 ---
 
 <p align="center"><sub>made with 💜 by sestevao</sub></p>
-
