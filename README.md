@@ -49,50 +49,8 @@ The NPS® or Net Promoter Score is a methodology created by Fred Reichheld in 20
 - [Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
 
 ## 💡 Tips
-
-The `node.js` by default doesn't understand the `.ts` format that is our `typescript` so we need to use a transpilator called `typescript`, to run some script it must call `ts-node-dev src/server .ts` and not `node src/server.ts`.
-
-## 🧪 Automated Tests
-
-**1. Unitary tests**
-- [ ] start the test and then start the application
-- [ ] `mocks` will be used to test data
-
-**2. Integration Tests**
-
-  - **Request**
-    - [ ] test routes
-    - [ ] test controller
-    - [ ] test repository
-
-  - **Response**
-    - [ ] test repository response
-    - [ ] test `controller`s response
-    - [ ] test route response
-
-**3. End to end (E2E)**
-- [ ] tests from the `frontend` to the `backend`, one click on the button
-
-**4. Run the tests**
-- [ ] `Jest` was the choice to test the application, to run:
-
-  ```bash
-  $ yarn test
-  ```
-
-### 🗺️ Routes
-
-|route|HTTP method|params|description|
-|:---|:---:|:---:|:---:
-|`/users`|[POST](http://localhost:3333/users)|body with `name` and `email`|creates a new user
-|`/users`|[GET](http://localhost:3333/users)|-|show all users
-|`/surveys`|[POST](http://localhost:3333/surveys)|body with `title` and `description`|creates a search
-|`/surveys`|[GET](http://localhost:3333/surveys)|- |list the searches
-|`/sendMail`|[POST](http://localhost:3333/sendMail)|body with `user.email` and `survey.id`|creates a new survey
-|`/answers/:value`|[GET](http://localhost:3333/answers/10?u=e3fd0114-1682-4950-badc-ed1c6f5b23a7)| - |set `user` rating for a survey
-|`/nps/:survey_id`|[GET](http://localhost:3333/nps/e3fd0114-1682-4950-badc-ed1c6f5b23a7)|passes `survey_id` in url as parameter.|lists all responses (NPS) from this survey
-
-## ✅ Getting started
+<details>
+  **<summary>✅ Create project</summary>**
 
 ```
 $ yarn init
@@ -142,6 +100,53 @@ $ yarn add express-async-errors
 # start application on dev 
 $ yarn dev
 ```
+</details>
+
+The `node.js` by default doesn't understand the `.ts` format that is our `typescript` so we need to use a transpilator called `typescript`, to run some script it must call `ts-node-dev src/server .ts` and not `node src/server.ts`.
+
+
+## 🧪 Automated Tests
+
+**1. Unitary tests**
+- [ ] start the test and then start the application
+- [ ] `mocks` will be used to test data
+
+**2. Integration Tests**
+
+  - **Request**
+    - [ ] test routes
+    - [ ] test controller
+    - [ ] test repository
+
+  - **Response**
+    - [ ] test repository response
+    - [ ] test `controller`s response
+    - [ ] test route response
+
+**3. End to end (E2E)**
+- [ ] tests from the `frontend` to the `backend`, one click on the button
+
+**4. Run the tests**
+- [ ] `Jest` was the choice to test the application, to run:
+
+  ```bash
+  $ yarn test
+  ```
+
+### 🗺️ Routes
+
+|route|HTTP method|params|description|
+|:---|:---:|:---:|:---:
+|`/users`|[POST](http://localhost:3333/users)|body with `name` and `email`|creates a new user
+|`/users`|[GET](http://localhost:3333/users)|-|show all users
+|`/surveys`|[POST](http://localhost:3333/surveys)|body with `title` and `description`|creates a search
+|`/surveys`|[GET](http://localhost:3333/surveys)|- |list the searches
+|`/sendMail`|[POST](http://localhost:3333/sendMail)|body with `user.email` and `survey.id`|creates a new survey
+|`/answers/:value`|[GET](http://localhost:3333/answers/10?u=e3fd0114-1682-4950-badc-ed1c6f5b23a7)| - |set `user` rating for a survey
+|`/nps/:survey_id`|[GET](http://localhost:3333/nps/e3fd0114-1682-4950-badc-ed1c6f5b23a7)|passes `survey_id` in url as parameter.|lists all responses (NPS) from this survey
+
+
+## ✅ Getting started
 
 ```bash
 # Clone this repository
