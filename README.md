@@ -60,12 +60,12 @@ The `node.js` by default doesn't understand the `.ts` format that is our `typesc
 
 **2. Integration Tests**
 
-  **Request**
+  - **Request**
     - [ ] test routes
     - [ ] test controller
     - [ ] test repository
 
-  **Response**
+  - **Response**
     - [ ] test repository response
     - [ ] test `controller`s response
     - [ ] test route response
