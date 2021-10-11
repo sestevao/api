@@ -1,41 +1,27 @@
-
 <h1 align="center">NLW#4 | Nodejs</h1>
 
-### 🔖 Sobre o Projeto
+## 💻 About the Project
 
-<strong>NPS-API</strong> para checar o NPS® ou Net Promoter Score de uma empresa 
+**NPS-API** to check a company's NPS® or Net Promoter Score
 
-Aplicação construída na trilha <strong>Node.js</strong> da <strong>Next Level Week #04</strong> da [Rocketseat](https://rocketseat.com.br/) durante os dias 22 a 28 de Fevereiro de 2021.
+Application built on the <strong>Node.js</strong> track of the <strong>Next Level Week #04</strong> of [Rocketseat](https://rocketseat.com.br/) during the 22nd to 28th of February 2021.
 
-<br>
+## 🧑 What is an NPS
 
-### 🧑‍🚀 O que é um NPS
+The NPS® or Net Promoter Score is a methodology created by Fred Reichheld in 2003. With NPS, it is possible to measure the level of loyalty and satisfaction of your customers. And that's why NPS has become such an important metric in driving customer success.
 
-O NPS® ou Net Promoter Score é uma metodologia criada por Fred Reichheld em 2003. Com o NPS, é possível mensurar o nível de lealdade e de satisfação dos seus clientes.
-
-E, por isso, o NPS tem se tornado uma métrica tão importante na busca pelo sucesso do cliente.
-
-<br>
-
-# 🔗 Links do projeto
-
-### 📒 Recursos
+## 📒 Recursos
 - [Ambiente](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
 - [Guia NLW4 node.js](https://www.notion.so/Next-Level-Week-4-Node-js-NPS-Calculator-67981103adbb4f229187c802bcd0d787)
 - [Ícones e Wallpapers](https://drive.google.com/drive/folders/11fxy_LmTD6S1FGTQbeu47QPLzvyuEGSs)
 
-<br>
-
-### ⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 - [x] Registo de utilizadores
 - [x] Registo de pesquisas de satisfação
 - [x] Envio de pesquisas por email
 - [x] Cálculo do NPS a partir das respostas
 
-<br>
-
-### 👩‍💻 Tecnologias
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 👩‍💻 Tecnologias
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -44,8 +30,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Beekeeper Studio](https://www.beekeeperstudio.io/)
 - [Insomnia](https://insomnia.rest/)
 - [Ethereal-Email](https://ethereal.email/)
-
-<br>
 
 ### 🚀 Módulos
 
@@ -61,8 +45,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - `handlebars` - Auxiliar para criar `views`/`templates` de modo fácil e dinâmico
 - `yup-validation` - Validador simples e objetivo de parametros
 - `express-async-errors` - Quando criamos um `middleware` para controlar erros é necessário ter essa library
-
-<br>
 
 ### 🛠️ Comandos para execução do projeto
 
@@ -101,13 +83,9 @@ $ yarn add express-async-errors
 $ yarn dev
 ```
 
-<br>
-
 ### 💡 Observação
 
 O `node.js` por padrão não entende o formato `.ts` que é o nosso `typescript` sendo necessário utilizarmos um transpilador chamado `typescript`, para rodar algum "script" deve chamar `ts-node-dev src/server.ts` e não `node src/server.ts`.
-
-<br>
 
 ### 🚀 Testes Automatizados
 
@@ -137,9 +115,7 @@ O `node.js` por padrão não entende o formato `.ts` que é o nosso `typescript`
 $ yarn test
 ```
 
-<br>
-
-### 🗺️ Rotas
+### 🗺️ Routes
 
 |route|HTTP method|params|description|
 |:---|:---:|:---:|:---:
@@ -150,8 +126,6 @@ $ yarn test
 |`/sendMail`|[POST](http://localhost:3333/sendMail)|body com `user.email` e `survey.id`|cria uma nova pesquisa
 |`/answers/:value`|[GET](http://localhost:3333/answers/10?u=e3fd0114-1682-4950-badc-ed1c6f5b23a7)| - |definir a avaliação do `user` para uma pesquisa
 |`/nps/:survey_id`|[GET](http://localhost:3333/nps/e3fd0114-1682-4950-badc-ed1c6f5b23a7)|passa o `survey_id` no url como parametro.|lista todas as respostas (NPS) dessa pesquisa
-
-<br>
 
 ### Correr o projeto
 
@@ -168,16 +142,19 @@ $ yarn start
 
 Access `API` at http://localhost:3333/
 
-<br>
-
 ### ✏️ Códigos
 
-**Dia 1** - Fundamentos do Node.js - `#rumoaoproximonivel`
+**Dia 1** - Fundamentos do Node.js
+**Dia 2** - Iniciando com a base de dados
+**Dia 3** - Testando a nossa aplicação
+**Dia 4** - Envio de e-mail
+**Dia 5** - Finalizando nossa API com validações
 
-**Dia 2** - Iniciando com a base de dados - `#jornadainfinita`
+## 📝 License
 
-**Dia 3** - Testando a nossa aplicação - `#focopraticagrupo`
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
-**Dia 4** - Envio de e-mail - `#neverstoplearning`
+---
 
-**Dia 5** - Finalizando nossa API com validações - `#missioncomplete`
+<p align="center"><sub>made with 💜 by sestevao</sub></p>
+
